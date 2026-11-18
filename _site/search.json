@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "",
+    "section": "",
+    "text": "Tools, training and learning material for the Australian stock assessment community.\nExplore resources developed by the Community of Practice alongside useful tools, courses and communities from Australia and around the world.\n\n\n\n\nForums run by other organisations, including internationally, may be of interest to CoP members.\n\n\n\n\n\n\n\nAn interactive community for discussing Stock Synthesis.\n\n\nVisit →\n\n\n\n\n\n\n\nA collaborative seminar series involving fisheries stock assessment researchers, primarily in the United States.\n\n\nVisit →\n\n\n\n\n\n\n\nRecordings of previous Fisheries Think Tank workshops.\n\n\nWatch →\n\n\n\n\n\n\n\nAdditional resources available to formal members via the GitHub platform.\n\n\n\n\n\n\n\nA demonstration from our inaugural Lunch and Learn showing how the CoP GitHub and LinkedIn platforms work.\n\n\nWatch →\n\n\n\n\n\n\n\nWebsite and resources for the 2026 Australian Stock Assessment Community of Practice Workshop.\n\n\nVisit →\n\n\n\n\n\n\n\nA compilation of papers and workshops describing best practice for conducting stock assessments. Accessible to formal members.\n\n\nExplore →\n\n\n\n\n\n\n\nA growing list of known Australian stock assessment reports. Accessible to formal members.\n\n\nBrowse →\n\n\n\n\n\n\n\nA database of freely available packages for conducting stock assessments of fish and invertebrate stocks.\n\n\nExplore →\n\n\n\n\n\n\n\nA stakeholder engagement process supporting harvest strategy development.\n\n\nVisit →\n\n\n\n\n\n\n\nPublicly accessible software tools for fisheries scientific work, including many stock assessment packages.\n\n\nExplore →\n\n\n\n\n\n\n\nBrings together biological, catch and effort information to determine the status of Australia’s key wild-catch fish stocks.\n\n\nVisit →\n\n\n\n\n\n\n\nA collection of interactive applications for learning about stock assessment inputs and outputs.\n\n\nExplore →\n\n\n\n\n\n\n\nEstimate natural mortality (M) using a range of life-history-based methods.\n\n\nOpen →\n\n\n\n\n\n\n\nAn R package for streamlining and providing consistency in stock assessment model outputs. Currently supports Stock Synthesis and DDUST.\n\n\nGitHub →\n\n\n\n\n\n\n\nA platform for exploring publicly available harvest strategies in Australia. Free signup is required.\n\n\nExplore →\n\n\n\n\n\n\n\n\n\n\n\n\nA catalogue of Lunch and Learn sessions run by the Australian Stock Assessment Community of Practice.\n\n\nBrowse →\n\n\n\n\n\n\n\nA collection of videos introducing key topics in fisheries stock assessment.\n\n\nWatch →\n\n\n\n\n\n\n\nA short introduction to the role stock assessments play in fisheries management.\n\n\nWatch →\n\n\n\n\n\n\n\nA saddletail snapper example from a series designed to communicate stock assessment results to stakeholders.\n\n\nWatch →\n\n\n\n\n\n\n\n\n\n\n\n\nOnline learning material in fisheries stock assessment.\n\n\nExplore →\n\n\n\n\n\n\n\nStock assessment learning resources from the Inter-American Tropical Tuna Commission.\n\n\nExplore →\n\n\n\n\n\n\n\nStock assessment workshops and learning resources provided by NOAA Fisheries.\n\n\nExplore →\n\n\n\n\n\n\n\nFisheries training resources from the Pacific Community.\n\n\nExplore →"
+  },
+  {
+    "objectID": "resources.html#forums-communities",
+    "href": "resources.html#forums-communities",
+    "title": "",
+    "section": "",
+    "text": "Forums run by other organisations, including internationally, may be of interest to CoP members.\n\n\n\n\n\n\n\nAn interactive community for discussing Stock Synthesis.\n\n\nVisit →\n\n\n\n\n\n\n\nA collaborative seminar series involving fisheries stock assessment researchers, primarily in the United States.\n\n\nVisit →\n\n\n\n\n\n\n\nRecordings of previous Fisheries Think Tank workshops.\n\n\nWatch →"
+  },
+  {
+    "objectID": "resources.html#tools-reference-material",
+    "href": "resources.html#tools-reference-material",
+    "title": "",
+    "section": "",
+    "text": "Additional resources available to formal members via the GitHub platform.\n\n\n\n\n\n\n\nA demonstration from our inaugural Lunch and Learn showing how the CoP GitHub and LinkedIn platforms work.\n\n\nWatch →\n\n\n\n\n\n\n\nWebsite and resources for the 2026 Australian Stock Assessment Community of Practice Workshop.\n\n\nVisit →\n\n\n\n\n\n\n\nA compilation of papers and workshops describing best practice for conducting stock assessments. Accessible to formal members.\n\n\nExplore →\n\n\n\n\n\n\n\nA growing list of known Australian stock assessment reports. Accessible to formal members.\n\n\nBrowse →\n\n\n\n\n\n\n\nA database of freely available packages for conducting stock assessments of fish and invertebrate stocks.\n\n\nExplore →\n\n\n\n\n\n\n\nA stakeholder engagement process supporting harvest strategy development.\n\n\nVisit →\n\n\n\n\n\n\n\nPublicly accessible software tools for fisheries scientific work, including many stock assessment packages.\n\n\nExplore →\n\n\n\n\n\n\n\nBrings together biological, catch and effort information to determine the status of Australia’s key wild-catch fish stocks.\n\n\nVisit →\n\n\n\n\n\n\n\nA collection of interactive applications for learning about stock assessment inputs and outputs.\n\n\nExplore →\n\n\n\n\n\n\n\nEstimate natural mortality (M) using a range of life-history-based methods.\n\n\nOpen →\n\n\n\n\n\n\n\nAn R package for streamlining and providing consistency in stock assessment model outputs. Currently supports Stock Synthesis and DDUST.\n\n\nGitHub →\n\n\n\n\n\n\n\nA platform for exploring publicly available harvest strategies in Australia. Free signup is required.\n\n\nExplore →"
+  },
+  {
+    "objectID": "resources.html#videos-learning",
+    "href": "resources.html#videos-learning",
+    "title": "",
+    "section": "",
+    "text": "A catalogue of Lunch and Learn sessions run by the Australian Stock Assessment Community of Practice.\n\n\nBrowse →\n\n\n\n\n\n\n\nA collection of videos introducing key topics in fisheries stock assessment.\n\n\nWatch →\n\n\n\n\n\n\n\nA short introduction to the role stock assessments play in fisheries management.\n\n\nWatch →\n\n\n\n\n\n\n\nA saddletail snapper example from a series designed to communicate stock assessment results to stakeholders.\n\n\nWatch →"
+  },
+  {
+    "objectID": "resources.html#training-courses",
+    "href": "resources.html#training-courses",
+    "title": "",
+    "section": "",
+    "text": "Online learning material in fisheries stock assessment.\n\n\nExplore →\n\n\n\n\n\n\n\nStock assessment learning resources from the Inter-American Tropical Tuna Commission.\n\n\nExplore →\n\n\n\n\n\n\n\nStock assessment workshops and learning resources provided by NOAA Fisheries.\n\n\nExplore →\n\n\n\n\n\n\n\nFisheries training resources from the Pacific Community.\n\n\nExplore →"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "For questions about the Australian Stock Assessment Community of Practice, membership, events, or our platforms, contact us via the CoP mailbox.\nEmail the CoP\nThe CoP mailbox is monitored by Natalie Dowling and Alise Fox.\n\n\n\n\n\nThe Community of Practice is led by a national core team, with representation across Australian fisheries jurisdictions.\n\n\n\n\n\nCore team member\nJurisdiction\nOrganisation\n\n\n\n\nMember\nNew South Wales\nOrganisation\n\n\nMember\nVictoria\nOrganisation\n\n\nMember\nTasmania\nOrganisation\n\n\nMember\nSouth Australia\nOrganisation\n\n\nMember\nWestern Australia\nOrganisation\n\n\nMember\nQueensland\nOrganisation\n\n\nMember\nCommonwealth\nOrganisation\n\n\n\n\n\n\n\n\nWe encourage members to share resources, opportunities, events, questions and ideas directly with the community.\nFor informal discussions, announcements and broader community engagement, post to the LinkedIn group.\nFor technical discussions, resources, code and other material relevant to practicing stock assessment scientists, contribute through our GitHub repository.\n\nGo to LinkedIn\nGo to GitHub"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "",
+    "section": "",
+    "text": "For questions about the Australian Stock Assessment Community of Practice, membership, events, or our platforms, contact us via the CoP mailbox.\nEmail the CoP\nThe CoP mailbox is monitored by Natalie Dowling and Alise Fox."
+  },
+  {
+    "objectID": "contact.html#core-team",
+    "href": "contact.html#core-team",
+    "title": "",
+    "section": "",
+    "text": "The Community of Practice is led by a national core team, with representation across Australian fisheries jurisdictions.\n\n\n\n\n\nCore team member\nJurisdiction\nOrganisation\n\n\n\n\nMember\nNew South Wales\nOrganisation\n\n\nMember\nVictoria\nOrganisation\n\n\nMember\nTasmania\nOrganisation\n\n\nMember\nSouth Australia\nOrganisation\n\n\nMember\nWestern Australia\nOrganisation\n\n\nMember\nQueensland\nOrganisation\n\n\nMember\nCommonwealth\nOrganisation"
+  },
+  {
+    "objectID": "contact.html#got-something-to-share",
+    "href": "contact.html#got-something-to-share",
+    "title": "",
+    "section": "",
+    "text": "We encourage members to share resources, opportunities, events, questions and ideas directly with the community.\nFor informal discussions, announcements and broader community engagement, post to the LinkedIn group.\nFor technical discussions, resources, code and other material relevant to practicing stock assessment scientists, contribute through our GitHub repository.\n\nGo to LinkedIn\nGo to GitHub"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "Building a collaborative community of stock assessment practitioners to better support sustainable fisheries management.\nA welcoming, safe, collegiate and collaborative space for all to build and share expertise.\n\n\n\n\nLed by a national core team, the CoP aims to build a strengthened, sustained, and highly engaged community of fisheries stock assessment practitioners by providing a supportive, collegiate operating space for capacity and capability building throughout Australia.\nThis will support the aim that all jurisdictions undertake assessments meeting best practice across the full spectrum of data-limited to data-rich fisheries, comparable to leading agencies globally.\n\n\n\n\n\nThe CoP will:\n\nFoster collaboration and strengthen relationships across agencies and jurisdictions\nDevelop and maintain online platforms to enable collaboration and communication\nProvide ongoing training and learning opportunities across all levels of expertise\nStrengthen the national pipeline of stock assessment scientists\nRaise the profile of Australian stock assessment science\n\n\n\n\n\n\nParticipation in the CoP is free, with different levels of participation to suit members’ interests and needs.\n\n\n\n\nFormal membership is designed primarily for practicing stock assessment scientists, as well as harvest strategy, MSE and ecosystem modelling specialists.\nFormal members are also members of the broader CoP Network.\nFormal membership provides access to:\n\nA dedicated GitHub repository\nTechnical resources and discussion boards\nMore formal, technical engagement\nA resource repository\nLinks to external resources\n\n\nGo to the repository\n\nRequest access\n\n\n\n\nNetwork membership is designed for the extended community with at least a casual interest in stock assessment, including fishery managers, Traditional Owners, policy makers, industry representatives, conservation groups, students and developing scientists.\nThe Network provides access to:\n\nOnline forums\nQ&A discussions\nNoticeboards\nBreakout discussions\nLunch and Learn events\nBroader networking and informal discussions\nAn accessible entry point for newcomers\n\n\nGo to LinkedIn group\n\n\n\n\n\n\n\nThe general public can engage with the CoP through this website, including resources for students and newcomers and links to the GitHub and LinkedIn platforms available to members.\nAll participants can also subscribe to the CoP mailing list for community updates, announcements and event information.\n\nJoin our mailing list"
+  },
+  {
+    "objectID": "about.html#our-purpose",
+    "href": "about.html#our-purpose",
+    "title": "",
+    "section": "",
+    "text": "Led by a national core team, the CoP aims to build a strengthened, sustained, and highly engaged community of fisheries stock assessment practitioners by providing a supportive, collegiate operating space for capacity and capability building throughout Australia.\nThis will support the aim that all jurisdictions undertake assessments meeting best practice across the full spectrum of data-limited to data-rich fisheries, comparable to leading agencies globally."
+  },
+  {
+    "objectID": "about.html#what-we-aim-to-achieve",
+    "href": "about.html#what-we-aim-to-achieve",
+    "title": "",
+    "section": "",
+    "text": "The CoP will:\n\nFoster collaboration and strengthen relationships across agencies and jurisdictions\nDevelop and maintain online platforms to enable collaboration and communication\nProvide ongoing training and learning opportunities across all levels of expertise\nStrengthen the national pipeline of stock assessment scientists\nRaise the profile of Australian stock assessment science"
+  },
+  {
+    "objectID": "about.html#ways-to-participate",
+    "href": "about.html#ways-to-participate",
+    "title": "",
+    "section": "",
+    "text": "Participation in the CoP is free, with different levels of participation to suit members’ interests and needs.\n\n\n\n\nFormal membership is designed primarily for practicing stock assessment scientists, as well as harvest strategy, MSE and ecosystem modelling specialists.\nFormal members are also members of the broader CoP Network.\nFormal membership provides access to:\n\nA dedicated GitHub repository\nTechnical resources and discussion boards\nMore formal, technical engagement\nA resource repository\nLinks to external resources\n\n\nGo to the repository\n\nRequest access\n\n\n\n\nNetwork membership is designed for the extended community with at least a casual interest in stock assessment, including fishery managers, Traditional Owners, policy makers, industry representatives, conservation groups, students and developing scientists.\nThe Network provides access to:\n\nOnline forums\nQ&A discussions\nNoticeboards\nBreakout discussions\nLunch and Learn events\nBroader networking and informal discussions\nAn accessible entry point for newcomers\n\n\nGo to LinkedIn group"
+  },
+  {
+    "objectID": "about.html#stay-connected",
+    "href": "about.html#stay-connected",
+    "title": "",
+    "section": "",
+    "text": "The general public can engage with the CoP through this website, including resources for students and newcomers and links to the GitHub and LinkedIn platforms available to members.\nAll participants can also subscribe to the CoP mailing list for community updates, announcements and event information.\n\nJoin our mailing list"
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Australian Stock Assessment Community of Practice\n\n\n\n\nThe Australian Stock Assessment Community of Practice acknowledges Australia’s Indigenous people, who are the Traditional Owners of Country throughout Australia, and recognises their continuing connection to lands, waters and culture. We pay our respects to Elders past and present, and extend that respect to all Indigenous people.\n\n\n\n\n\n\nThis Code of Conduct reflects our commitment to creating and maintaining a welcoming, safe, collegiate and collaborative space for all within the Australian Stock Assessment Community of Practice (CoP).\nAll members, regardless of their level of engagement, are expected to adhere to these principles when participating in CoP activities, forums, events or communications. This includes:\n\nFormal CoP members\nNetwork members\nParticipants in CoP activities\n\n\n\n\n\n\nThe CoP is founded on the principle of creating a supportive, collegiate operating space where members can:\n\nSupport one another in their professional development\nBuild our colleague base across jurisdictions and career stages\nAddress common issues collaboratively\nLearn and grow in a consequence-free, safe environment\n\n\n\n\n\n\n\n\n\nTreating all community members with respect, dignity and courtesy\nWelcoming participants of all experience, skill, knowledge and background levels\nAcknowledging and valuing diverse perspectives, approaches and learning styles\nRecognising that each individual has a unique learning journey and trajectory\nUsing inclusive language that welcomes people from all backgrounds, cultures and career stages\nRespecting Traditional Owners and their knowledge systems\n\n\n\n\n\nEngage in discriminatory, ostracising or exclusionary behaviour\nUse derogatory language or personal attacks\nMake assumptions about others’ capabilities based on their background, experience level or affiliation\nEngage in behaviour that could reasonably be considered harassment or bullying\n\n\n\n\n\n\n\n\n\n\nMaintaining professional standards in all communications\nProviding feedback and critique in a constructive, supportive manner\nFocusing on ideas, methods and approaches rather than personal characteristics\nAcknowledging when we do not know something or when we make mistakes\nGiving credit where it is due and acknowledging the work of others\n\n\n\n\n\nEngage in personal attacks or inflammatory rhetoric\nDismiss questions or contributions based on the questioner’s experience level\nUse CoP platforms for commercial promotion without appropriate permission\nEngage in conspiratorial behaviour or create divisive factions within the community\nBe confrontational regarding published stock assessment outcomes or agreed management resolutions, such as challenging Total Allowable Catch levels\n\n\n\n\n\n\n\n\n\n\nGrounding our discussions and recommendations in sound scientific evidence\nAcknowledging uncertainty and limitations in our knowledge\nBeing transparent about potential conflicts of interest\nSupporting claims with appropriate references and documentation\nEncouraging open and honest scientific discourse\n\n\n\n\n\nMisrepresent scientific findings or methodologies\nMake unfounded claims about assessment methods or outcomes\nDiscourage legitimate scientific questioning or debate\n\n\n\n\n\n\nProvide legal or regulatory advice\n\n\n\n\n\n\n\n\n\nRespecting the confidentiality requirements of our respective organisations\nOnly sharing information we are authorised to share\nClearly indicating when information is preliminary, confidential or restricted\nRespecting intellectual property rights and requirements for proper attribution\n\n\n\n\n\nShare sensitive, confidential or proprietary information without appropriate authorisation\nBreach data-sharing agreements or confidentiality requirements\nUse CoP platforms to circumvent normal organisational information-sharing protocols\n\n\n\n\n\n\nHost the sharing of data or code where these may contain sensitive information\n\n\n\n\n\n\n\n\n\nCreating a safe space for questions, learning and skill development\nEncouraging participation from members at all career stages\nSharing knowledge and expertise generously\nSupporting early-career scientists and newcomers to the field\nMaintaining healthy levels of competition in learning activities, such as stock assessment games\nCelebrating successes and learning from failures together\n\n\n\n\n\nShame or belittle others for their level of knowledge or experience\nCreate an environment where people are afraid to ask questions or admit uncertainty\nDominate discussions or monopolise expert attention\nEngage in unhealthy competition that discourages participation\n\n\n\n\n\n\n\n\n\nGitHub · Formal members\n\nFocus on technical discussions and resource sharing\nUse clear, descriptive titles for posts and contributions\nProvide context and background for technical questions\nFollow established formatting and documentation standards\n\n\n\n\nLinkedIn · All members\n\nKeep discussions professional but accessible\nUse appropriate hashtags and tagging\nShare relevant news and opportunities with the broader community\nMaintain a welcoming tone for newcomers\n\n\n\n\n\nParticipate actively and constructively\nRespect time limits and agenda items\nCreate opportunities for networking and relationship building\nSupport inclusive participation in discussions and activities\n\n\n\n\n\n\n\n\nIf you experience or witness behaviour that violates this Code of Conduct:\n\nDirect communication: When safe and appropriate, consider addressing minor issues directly with the individual involved.\nContact moderators: Report issues to designated forum moderators or event facilitators.\nLeadership team: Contact the CoP Core Leadership Group for serious violations or if other approaches are unsuccessful.\nAnonymous reporting: Anonymous reporting options will be made available for sensitive situations.\n\n\n\n\n\nThe CoP Forum Moderators, in accordance with the Moderator Guidelines, will:\n\nInvestigate reported violations fairly and confidentially\nTake action proportionate to the nature and severity of the violation\nMaintain records as necessary for ongoing community safety\n\n\n\n\nDepending on the severity and nature of the violation, responses may include:\n\nPrivate conversation and guidance\nPublic clarification or correction\nTemporary suspension from specific platforms or activities\nRemoval from CoP membership for serious or repeated violations\nExclusion from events or activities\n\n\n\n\n\n\n\nThis Code of Conduct is a living document that will:\n\nBe reviewed regularly by the CoP membership\nBe updated based on community feedback and experience\nEvolve to address new challenges and platforms\nBe refined through consultation with CoP members\n\n\n\n\n\n\nBy participating in CoP activities, all members acknowledge that they have read, understood and agree to abide by this Code of Conduct.\nNew members will be required to acknowledge their understanding of and commitment to these principles as part of the onboarding process.\n\n\n\n\n\nThe CoP Core Leadership Group is committed to providing:\n\nClear guidance on appropriate behaviour and communication\nTraining and support for moderators and facilitators\nA safe community\nRegular communication about community standards and expectations\n\n\n\n\nOur goal is to create an environment where everyone can thrive professionally, learn from each other and contribute to the advancement of stock assessment science in Australia.\nThis Code of Conduct represents our shared commitment to that vision.\n\n\n\nFor questions about this Code of Conduct, or to report a possible violation, contact the CoP mailbox.\nContact us"
+  },
+  {
+    "objectID": "code-of-conduct.html#preamble",
+    "href": "code-of-conduct.html#preamble",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct reflects our commitment to creating and maintaining a welcoming, safe, collegiate and collaborative space for all within the Australian Stock Assessment Community of Practice (CoP).\nAll members, regardless of their level of engagement, are expected to adhere to these principles when participating in CoP activities, forums, events or communications. This includes:\n\nFormal CoP members\nNetwork members\nParticipants in CoP activities"
+  },
+  {
+    "objectID": "code-of-conduct.html#our-values",
+    "href": "code-of-conduct.html#our-values",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "The CoP is founded on the principle of creating a supportive, collegiate operating space where members can:\n\nSupport one another in their professional development\nBuild our colleague base across jurisdictions and career stages\nAddress common issues collaboratively\nLearn and grow in a consequence-free, safe environment"
+  },
+  {
+    "objectID": "code-of-conduct.html#respectful-and-inclusive-behaviour",
+    "href": "code-of-conduct.html#respectful-and-inclusive-behaviour",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Treating all community members with respect, dignity and courtesy\nWelcoming participants of all experience, skill, knowledge and background levels\nAcknowledging and valuing diverse perspectives, approaches and learning styles\nRecognising that each individual has a unique learning journey and trajectory\nUsing inclusive language that welcomes people from all backgrounds, cultures and career stages\nRespecting Traditional Owners and their knowledge systems\n\n\n\n\n\nEngage in discriminatory, ostracising or exclusionary behaviour\nUse derogatory language or personal attacks\nMake assumptions about others’ capabilities based on their background, experience level or affiliation\nEngage in behaviour that could reasonably be considered harassment or bullying"
+  },
+  {
+    "objectID": "code-of-conduct.html#professional-and-constructive-communication",
+    "href": "code-of-conduct.html#professional-and-constructive-communication",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Maintaining professional standards in all communications\nProviding feedback and critique in a constructive, supportive manner\nFocusing on ideas, methods and approaches rather than personal characteristics\nAcknowledging when we do not know something or when we make mistakes\nGiving credit where it is due and acknowledging the work of others\n\n\n\n\n\nEngage in personal attacks or inflammatory rhetoric\nDismiss questions or contributions based on the questioner’s experience level\nUse CoP platforms for commercial promotion without appropriate permission\nEngage in conspiratorial behaviour or create divisive factions within the community\nBe confrontational regarding published stock assessment outcomes or agreed management resolutions, such as challenging Total Allowable Catch levels"
+  },
+  {
+    "objectID": "code-of-conduct.html#evidence-based-practice-and-scientific-integrity",
+    "href": "code-of-conduct.html#evidence-based-practice-and-scientific-integrity",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Grounding our discussions and recommendations in sound scientific evidence\nAcknowledging uncertainty and limitations in our knowledge\nBeing transparent about potential conflicts of interest\nSupporting claims with appropriate references and documentation\nEncouraging open and honest scientific discourse\n\n\n\n\n\nMisrepresent scientific findings or methodologies\nMake unfounded claims about assessment methods or outcomes\nDiscourage legitimate scientific questioning or debate\n\n\n\n\n\n\nProvide legal or regulatory advice"
+  },
+  {
+    "objectID": "code-of-conduct.html#confidentiality-and-information-sharing",
+    "href": "code-of-conduct.html#confidentiality-and-information-sharing",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Respecting the confidentiality requirements of our respective organisations\nOnly sharing information we are authorised to share\nClearly indicating when information is preliminary, confidential or restricted\nRespecting intellectual property rights and requirements for proper attribution\n\n\n\n\n\nShare sensitive, confidential or proprietary information without appropriate authorisation\nBreach data-sharing agreements or confidentiality requirements\nUse CoP platforms to circumvent normal organisational information-sharing protocols\n\n\n\n\n\n\nHost the sharing of data or code where these may contain sensitive information"
+  },
+  {
+    "objectID": "code-of-conduct.html#collaborative-learning-environment",
+    "href": "code-of-conduct.html#collaborative-learning-environment",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Creating a safe space for questions, learning and skill development\nEncouraging participation from members at all career stages\nSharing knowledge and expertise generously\nSupporting early-career scientists and newcomers to the field\nMaintaining healthy levels of competition in learning activities, such as stock assessment games\nCelebrating successes and learning from failures together\n\n\n\n\n\nShame or belittle others for their level of knowledge or experience\nCreate an environment where people are afraid to ask questions or admit uncertainty\nDominate discussions or monopolise expert attention\nEngage in unhealthy competition that discourages participation"
+  },
+  {
+    "objectID": "code-of-conduct.html#platform-specific-guidelines",
+    "href": "code-of-conduct.html#platform-specific-guidelines",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "GitHub · Formal members\n\nFocus on technical discussions and resource sharing\nUse clear, descriptive titles for posts and contributions\nProvide context and background for technical questions\nFollow established formatting and documentation standards\n\n\n\n\nLinkedIn · All members\n\nKeep discussions professional but accessible\nUse appropriate hashtags and tagging\nShare relevant news and opportunities with the broader community\nMaintain a welcoming tone for newcomers\n\n\n\n\n\nParticipate actively and constructively\nRespect time limits and agenda items\nCreate opportunities for networking and relationship building\nSupport inclusive participation in discussions and activities"
+  },
+  {
+    "objectID": "code-of-conduct.html#reporting-and-enforcement",
+    "href": "code-of-conduct.html#reporting-and-enforcement",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "If you experience or witness behaviour that violates this Code of Conduct:\n\nDirect communication: When safe and appropriate, consider addressing minor issues directly with the individual involved.\nContact moderators: Report issues to designated forum moderators or event facilitators.\nLeadership team: Contact the CoP Core Leadership Group for serious violations or if other approaches are unsuccessful.\nAnonymous reporting: Anonymous reporting options will be made available for sensitive situations.\n\n\n\n\n\nThe CoP Forum Moderators, in accordance with the Moderator Guidelines, will:\n\nInvestigate reported violations fairly and confidentially\nTake action proportionate to the nature and severity of the violation\nMaintain records as necessary for ongoing community safety\n\n\n\n\nDepending on the severity and nature of the violation, responses may include:\n\nPrivate conversation and guidance\nPublic clarification or correction\nTemporary suspension from specific platforms or activities\nRemoval from CoP membership for serious or repeated violations\nExclusion from events or activities"
+  },
+  {
+    "objectID": "code-of-conduct.html#continuous-improvement",
+    "href": "code-of-conduct.html#continuous-improvement",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is a living document that will:\n\nBe reviewed regularly by the CoP membership\nBe updated based on community feedback and experience\nEvolve to address new challenges and platforms\nBe refined through consultation with CoP members"
+  },
+  {
+    "objectID": "code-of-conduct.html#acknowledgement-and-agreement",
+    "href": "code-of-conduct.html#acknowledgement-and-agreement",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "By participating in CoP activities, all members acknowledge that they have read, understood and agree to abide by this Code of Conduct.\nNew members will be required to acknowledge their understanding of and commitment to these principles as part of the onboarding process."
+  },
+  {
+    "objectID": "code-of-conduct.html#support-and-resources",
+    "href": "code-of-conduct.html#support-and-resources",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "The CoP Core Leadership Group is committed to providing:\n\nClear guidance on appropriate behaviour and communication\nTraining and support for moderators and facilitators\nA safe community\nRegular communication about community standards and expectations\n\n\n\n\nOur goal is to create an environment where everyone can thrive professionally, learn from each other and contribute to the advancement of stock assessment science in Australia.\nThis Code of Conduct represents our shared commitment to that vision.\n\n\n\nFor questions about this Code of Conduct, or to report a possible violation, contact the CoP mailbox.\nContact us"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Welcome to the Australian Stock Assessment Community of Practice\n\n\nA welcoming, safe, collegiate and collaborative space for all.\n\n\n\n\nA place for the Australian fisheries stock assessment community to support one another, build our colleague base, identify and address common issues."
+  },
+  {
+    "objectID": "index.html#together-we-are",
+    "href": "index.html#together-we-are",
+    "title": "",
+    "section": "",
+    "text": "A place for the Australian fisheries stock assessment community to support one another, build our colleague base, identify and address common issues."
+  },
+  {
+    "objectID": "index.html#learn-about-and-access-the-platforms-within-our-community-of-practice.",
+    "href": "index.html#learn-about-and-access-the-platforms-within-our-community-of-practice.",
+    "title": "",
+    "section": "Learn about and access the platforms within our Community of Practice.",
+    "text": "Learn about and access the platforms within our Community of Practice.\n\nParticipation in the CoP is free of charge, and members of all experience, skill, knowledge and background are welcome.\nMembers participating within the CoP are to adhere to the Code of Conduct and treat all community members with respect.\n\n\n\n\n◎ About us ⌄\n\n\n\n\nRead a one-pager on who we are and the goals of the Community of Practice\n\n\nGo to About Us\n\n\n\n\n\n\n&lt;/&gt; Technical forum and repository for formal members ⌄\n\n\n\n\nAs a formal member of the CoP, you can access the GitHub repository for:\n\nMore technical forums\nA resource repository\nLinks to existing resources\n\nThis section is good for:\n\nPracticing stock assessment scientists\nA more technical focus\nHarvest strategy, MSE, ecosystem modelling specialists\n\n\n\nGo to the repository!\nRequest access\n\n\n\n\n\n\nin Social network for all members ⌄\n\n\n\n\nAs a member of the CoP network, you can access the LinkedIn group for:\n\nOnline forums\nQ&A discussions\nNoticeboards\nBreakout discussions\nLunch and Learn events\n\nThis section is good for:\n\nAnyone with at least a casual interest in stock assessment\nFishing industry members\nFishery managers\n\n\n\nGo to LinkedIn group\n\n\n\n\n\n\n▤ Resources for everyone ⌄\n\n\n\n\nYou can read our articles and resources to learn more about:\n\nThe basics of fisheries stock assessment\nBecoming a stock assessment scientist\nStudy and career opportunities\n\nThis section is good for:\n\nStudents\nAnyone interested in a career in stock assessment\nAnyone just starting out and wanting to find out more\n\n\n\nGo to resources\n\n\n\n\n\n\n✉ Contact ⌄\n\n\n\n\nKeep up to date with our Community of Practice by joining our mailing list. This will also provide you with access to the Lunch & Learn series.\nYou can unsubscribe at any time.\n\n\nJoin our mailing list"
+  }
+]

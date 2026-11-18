@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  page-footer:
+    left: |
+      This research was supported by Fisheries Research and Development Corporation on behalf of the Australian Government. <br>
+      <img src="/images/frdc.png" class="footer-FRDC-logo" alt="FRDC logo">
+    right: |
+      Australian Stock Assessment Community of Practice
+  navbar:
+    background: white
+    logo: images/logo.png
+    right:
+      - href: index.qmd
+        text: Home
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About the CoP
+          - href: code-of-conduct.qmd
+            text: Code of Conduct
+      - href: resources.qmd
+        text: Resources
+      - href: code-of-conduct.qmd
+        text: Code of Conduct
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    include-after-body: scripts.html

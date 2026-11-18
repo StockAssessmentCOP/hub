@@ -1,0 +1,38 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const statements = [
+    'A place for the Australian fisheries stock assessment community to <strong>support</strong> one another, <strong>build our colleague base</strong>, identify and <strong>address common issues</strong>.',
+    'A place to foster a more <strong>engaged, collaborative, and capable</strong> stock assessment community.',
+    'A place to build a strengthened and sustained community of fisheries stock assessment practitioners by providing a <strong>supportive, collegiate operating space</strong> for capacity and capability building throughout Australia.',
+    'A place to ensure <strong>all jurisdictions</strong> are undertaking <strong>best practice</strong> stock assessment, comparable to leading agencies globally.',
+    'Feeding the <strong>pipeline</strong>, providing <strong>ongoing training</strong>, fostering <strong>collaboration</strong>, encouraging <strong>best practice</strong>.'
+  ];
+  const rotator = document.querySelector('#cop-rotator');
+  let index = 0;
+  if (rotator && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    setInterval(() => {
+      rotator.classList.add('is-changing');
+      setTimeout(() => {
+        index = (index + 1) % statements.length;
+        rotator.innerHTML = statements[index];
+        rotator.classList.remove('is-changing');
+      }, 450);
+    }, 5000);
+  }
+  document.querySelectorAll('.cop-trigger').forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const item = trigger.closest('.cop-item');
+      const wasOpen = item.classList.contains('is-open');
+      document.querySelectorAll('.cop-item').forEach(other => {
+        other.classList.remove('is-open');
+        const button = other.querySelector('.cop-trigger');
+        if (button) button.setAttribute('aria-expanded','false');
+      });
+      if (!wasOpen) {
+        item.classList.add('is-open');
+        trigger.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+});
+</script>

@@ -1,0 +1,174 @@
+---
+title: ""
+---
+
+::: {.hero}
+::: {.hero-inner}
+::: {.welcome-box}
+Welcome to the Australian Stock Assessment Community of Practice
+:::
+
+::: {.tagline-box}
+*A welcoming, safe, collegiate and collaborative space for all.*
+:::
+
+## Together, we are...
+
+::: {#cop-rotator .rotator aria-live="polite"}
+A place for the Australian fisheries stock assessment community to **support** one another, **build our colleague base**, identify and **address common issues**.
+:::
+:::
+:::
+
+::: {.platform-section}
+## Learn about and access the platforms within our Community of Practice.
+
+::: {.membership-note}
+*Participation in the CoP is free of charge, and members of all experience, skill, knowledge and background are welcome.*
+
+*Members participating within the CoP are to adhere to the **[Code of Conduct](about.qmd){target="_blank"}** and treat all community members with respect.*
+:::
+
+::: {.cop-accordion}
+
+
+::: {.cop-item}
+<button class="cop-trigger" type="button" aria-expanded="false">
+<span class="cop-icon">◎</span>
+<span><strong>About us</strong></span>
+<span class="chev">⌄</span>
+</button>
+
+::: {.cop-panel}
+::: {.panel-grid}
+::: {.panel-copy}
+Read a one-pager on who we are and the goals of the Community of Practice
+
+:::
+::: {.panel-action}
+[Go to About Us](about.qmd){.cop-button target="_blank"}
+:::
+:::
+:::
+:::
+
+
+
+::: {.cop-item .is-open}
+<button class="cop-trigger" type="button" aria-expanded="true">
+<span class="cop-icon">&lt;/&gt;</span>
+<span><strong>Technical forum and repository</strong> <em>for formal members</em></span>
+<span class="chev">⌄</span>
+</button>
+
+::: {.cop-panel}
+::: {.panel-grid}
+::: {.panel-copy}
+As a **formal member** of the CoP, you can access the GitHub repository for:
+
+- More technical forums
+- A resource repository
+- Links to existing resources
+
+This section is good for:
+
+- **Practicing stock assessment scientists**
+- A more technical focus
+- Harvest strategy, MSE, ecosystem modelling specialists
+
+:::
+::: {.panel-action}
+[Go to the repository!](https://github.com/StockAssessmentCOP/StockAssessmentCOP){.cop-button target="_blank"}
+
+[Request access](mailto:stockassessmentcop@gmail.com?subject=Request%20for%20formal%20membership%20and%20GitHub%20access&body=Hello%2C%0A%0AI%20am%20interested%20in%20becoming%20a%20formal%20member%20of%20the%20Australian%20Stock%20Assessment%20Community%20of%20Practice%2C%20and%20would%20like%20to%20be%20granted%20access%20to%20the%20GitHub.%0A%0AName%3A%20%0AOrganisation%3A%20%0AGitHub%20username%3A%20%0A%0AThank%20you.){.cop-button .cop-button-secondary}
+:::
+:::
+:::
+:::
+
+::: {.cop-item}
+<button class="cop-trigger" type="button" aria-expanded="false">
+<span class="cop-icon">in</span>
+<span><strong>Social network</strong> <em>for all members</em></span>
+<span class="chev">⌄</span>
+</button>
+
+::: {.cop-panel}
+::: {.panel-grid}
+::: {.panel-copy}
+As a member of the **CoP network**, you can access the LinkedIn group for:
+
+- Online forums
+- Q&A discussions
+- Noticeboards
+- Breakout discussions
+- Lunch and Learn events
+
+This section is good for:
+
+- **Anyone with at least a casual interest in stock assessment**
+- Fishing industry members
+- Fishery managers
+
+:::
+::: {.panel-action}
+[Go to LinkedIn group](https://www.linkedin.com/groups/14536824/){.cop-button target="_blank"}
+:::
+:::
+:::
+:::
+
+::: {.cop-item}
+<button class="cop-trigger" type="button" aria-expanded="false">
+<span class="cop-icon">▤</span>
+<span><strong>Resources</strong> <em>for everyone</em></span>
+<span class="chev">⌄</span>
+</button>
+
+::: {.cop-panel}
+::: {.panel-grid}
+::: {.panel-copy}
+You can read our articles and resources to learn more about:
+
+- The **basics** of fisheries stock assessment
+- Becoming a stock assessment scientist
+- **Study** and **career** opportunities
+
+This section is good for:
+
+- Students
+- Anyone interested in a career in stock assessment
+- Anyone just starting out and wanting to find out more
+
+:::
+::: {.panel-action}
+[Go to resources](resources.qmd){.cop-button target="_blank"}
+:::
+:::
+:::
+:::
+
+::: {.cop-item}
+<button class="cop-trigger" type="button" aria-expanded="false">
+<span class="cop-icon">✉</span>
+<span><strong>Contact</strong></span>
+<span class="chev">⌄</span>
+</button>
+
+::: {.cop-panel}
+::: {.panel-grid}
+::: {.panel-copy}
+Keep up to date with our Community of Practice by joining our **mailing list**. This will also provide you with access to the Lunch & Learn series.
+
+You can unsubscribe at any time.
+
+:::
+::: {.panel-action}
+[Join our mailing list](mailto:stockassessmentcop@gmail.com?subject=Mailing%20list&body=Hello%2C%0A%0APlease%20add%20me%20to%20your%20mailing%20list%20and%20the%20invite%20list%20for%20upcoming%20Lunch%20and%20Learn%20seminars.%0A%0AThank%20you.){.about-button}
+:::
+:::
+:::
+:::
+:::
+
+:::

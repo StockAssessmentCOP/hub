@@ -1,0 +1,1603 @@
+:root { --cop-blue:#59c6df; --cop-mid:#047ba3; --cop-deep:#002f49; --cop-navy:#062f46; --cop-aqua:#18bdc4; --cop-ink:#123746; }
+html,body { background:var(--cop-navy); }
+body { color:#fff; }
+.navbar { min-height:82px; background:#fff!important; border-bottom:0; box-shadow:none; }
+.navbar-brand img { max-height:58px; width:auto; }
+.navbar-nav .nav-link { color:#315466!important; font-weight:600; padding-inline:1rem!important; }
+.navbar-nav .nav-link:hover,.navbar-nav .nav-link.active { color:#087da9!important; }
+#quarto-content { margin:0; padding:0; background:var(--cop-navy); }
+main.content { margin:0!important; padding:0!important; max-width:none!important; background:var(--cop-navy); }
+.hero { min-height:610px; width:100%; display:grid; place-items:center; text-align:center; color:#fff; position:relative; background:linear-gradient(90deg,rgba(3,75,103,.58),rgba(0,113,145,.40)),url('images/hero.png') center 44%/cover no-repeat; overflow:visible; }
+.hero-inner { width:min(1080px,92vw); padding:5rem 1rem 4.2rem; position:relative; z-index:1; display:flex; flex-direction:column; align-items:center; }
+.welcome-box { display:inline-block; max-width:850px; padding:.66rem 1.35rem .72rem; margin:0 auto; background:rgba(87,198,221,.94); color:#fff; font-size:clamp(1.7rem,3.5vw,3.15rem); line-height:1.08; font-weight:700; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
+.tagline-box { position:relative; margin-top:-.05rem; transform:translateY(-2px); padding:.62rem 1.35rem .68rem; background:rgba(5,45,69,.96); color:#fff; font-size:clamp(1rem,1.75vw,1.35rem); line-height:1.25; }
+.tagline-box p { margin:0; }
+.hero h2 { color:#fff; font-size:clamp(1.25rem,2.15vw,1.8rem); margin:3.35rem 0 .4rem; font-weight:600; }
+.rotator { max-width:820px; min-height:82px; margin:.45rem auto 0; font-size:clamp(1.03rem,1.65vw,1.35rem); line-height:1.45; font-weight:400; text-shadow:0 1px 8px rgba(0,0,0,.28); opacity:1; transition:opacity .45s ease,transform .45s ease; }
+.rotator.is-changing { opacity:0; transform:translateY(6px); }
+.platform-section { width:min(1080px,92vw); margin:0 auto; padding:4.2rem 0 3.25rem; color:#fff; }
+.platform-section>h2 { max-width:820px; margin:0 auto 2.35rem; text-align:center; color:#fff; font-size:clamp(1.65rem,3vw,2.35rem); line-height:1.18; font-weight:700; text-wrap:balance; text-shadow:0 2px 10px rgba(0,0,0,.22); }
+.cop-accordion { border-radius:4px; overflow:hidden; box-shadow:0 12px 35px rgba(0,0,0,.18); }
+.cop-item { border-bottom:1px solid rgba(255,255,255,.46); }
+.cop-trigger { appearance:none; border:0; width:100%; display:grid; grid-template-columns:58px 1fr auto; align-items:center; gap:1rem; text-align:left; padding:1.15rem 1.4rem; background:linear-gradient(90deg,#067a9e,#13babe); color:#fff; font-size:1.21rem; cursor:pointer; }
+.cop-trigger em { font-weight:400; }
+.cop-icon { display:grid; place-items:center; width:46px; height:46px; border:2px solid rgba(255,255,255,.92); border-radius:50%; font-size:1rem; font-weight:800; }
+.chev { font-size:1.7rem; transition:transform .25s ease; }
+.cop-item.is-open .chev { transform:rotate(180deg); }
+.cop-panel { display:none; background:#fff; color:#087da9; }
+.cop-item.is-open .cop-panel { display:block; }
+.panel-grid { display:grid; grid-template-columns:minmax(0,2.45fr) minmax(210px,.8fr); gap:2.25rem; padding:2rem 2.5rem 2.25rem; color:#087da9; align-items:center; }
+.panel-copy li { margin:.28rem 0; }
+.panel-action { justify-self:center; width:100%; max-width:230px; }
+.cop-button { display:block; width:100%; margin:0; padding:.85rem 1.15rem; border-radius:4px; border:2px solid #087da9; background:#087da9; color:#fff!important; font-weight:700; text-align:center; text-decoration:none; line-height:1.25; box-shadow:0 5px 13px rgba(0,86,120,.14); }
+.cop-button:hover { background:#005879; border-color:#005879; }
+.membership-note { background:#0b3a52; border-top:1px solid rgba(255,255,255,.13); margin:2.4rem auto 0; padding:1.35rem 1.6rem; text-align:center; color:#dceef3; }
+.membership-note p { margin:.25rem 0; }
+@media(max-width:700px){
+ .navbar{min-height:68px}.navbar-brand img{max-height:46px}
+ .hero{min-height:570px;background-position:center center}.hero-inner{padding:4rem .4rem 3.8rem}
+ .welcome-box{font-size:1.75rem;padding:.55rem .8rem}.tagline-box{font-size:.98rem;margin-inline:.5rem}
+ .hero h2{margin-top:2.6rem}.rotator{min-height:130px;font-size:1.03rem}
+ .platform-section{padding-top:3rem}.platform-section>h2{font-size:1.62rem}
+ .cop-trigger{grid-template-columns:42px 1fr auto;font-size:1.02rem;padding:1rem}.cop-icon{width:38px;height:38px}
+ .panel-grid{grid-template-columns:1fr;padding:1.5rem;gap:1.35rem}.panel-action{justify-self:start;max-width:100%}
+ .membership-note{text-align:left}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.rotator{transition:none}}
+
+/* v3 refinements */
+.hero {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.platform-section > h2 {
+  display: block;
+  width: fit-content;
+  max-width: min(920px, 92vw);
+  padding: .8rem 1.35rem .9rem;
+  background: #fff;
+  color: var(--cop-navy);
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  text-shadow: none;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+.platform-section > h2 a,
+.platform-section > h2 a:hover { color: var(--cop-navy); text-decoration: none; }
+.membership-note {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: .85rem 1.25rem;
+  background: transparent;
+  border: 0;
+  color: #dbeaf0;
+  font-size: .96rem;
+}
+.panel-copy { line-height: 1.32; }
+.panel-copy p { margin-bottom: .55rem; }
+.panel-copy ul { margin-top: .25rem; margin-bottom: .65rem; }
+.panel-copy li { margin: .08rem 0; line-height: 1.28; }
+.panel-action { display: flex; flex-direction: column; gap: .72rem; }
+.cop-button-secondary { background: #fff; color: #087da9 !important; }
+.cop-button-secondary:hover { background: #eaf7fa; color: #005879 !important; }
+
+
+
+/* =========================================================
+   ABOUT PAGE
+   ========================================================= */
+
+.about-page {
+  width: min(1000px, 90%);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+
+  color: white;
+}
+
+
+/* =========================================================
+   OPENING STATEMENT
+   ========================================================= */
+
+.about-opening {
+  max-width: 900px;
+
+  margin: 0 0 3rem;
+}
+
+.about-opening p:first-child {
+  max-width: 850px;
+
+  margin: 0 0 1rem;
+
+  color: white;
+
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.about-opening p:last-child {
+  display: inline-block;
+
+  margin: 0;
+  padding: 0.75rem 1rem;
+
+  background: #e5f4f7;
+  color: #07334a;
+
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   MAIN SECTION HEADINGS
+   ========================================================= */
+
+.about-section-title {
+  position: relative;
+
+  margin: 2.5rem 0 1rem;
+  padding: 0 0 0.65rem;
+
+  color: white !important;
+
+  font-size: 1.6rem;
+  line-height: 1.15;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+
+/* Thin aqua divider */
+
+.about-section-title::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: #59c6df;
+}
+
+
+/* =========================================================
+   WHITE CONTENT PANELS
+   ========================================================= */
+
+.about-panel {
+  margin-top: 1rem;
+
+  padding: 1.6rem 1.8rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.about-panel p {
+  max-width: 860px;
+
+  margin: 0 0 0.9rem;
+
+  color: #46616b;
+
+  font-size: 0.97rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.about-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.about-panel strong {
+  color: #07334a;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   LISTS
+   ========================================================= */
+
+.about-panel ul {
+  margin: 0.8rem 0 0.4rem;
+  padding-left: 1.3rem;
+}
+
+.about-panel li {
+  margin-bottom: 0.35rem;
+
+  color: #46616b;
+
+  font-size: 0.97rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   WAYS TO PARTICIPATE INTRO
+   ========================================================= */
+
+.about-section-intro {
+  max-width: 800px;
+
+  margin: 0 0 1.3rem;
+
+  color: #b8d3dc;
+
+  font-size: 0.92rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   MEMBERSHIP SUBHEADINGS
+   ========================================================= */
+
+.membership-title {
+  margin: 1.5rem 0 0.65rem;
+
+  color: white !important;
+
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+
+/* Don't over-separate the two membership sections */
+
+.membership-title + .about-panel {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.7rem;
+
+  margin-top: 1.2rem;
+}
+
+.about-button {
+  display: inline-block;
+
+  padding: 0.7rem 1.1rem;
+
+  background: #087da9;
+  color: white !important;
+
+  border-radius: 4px;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.about-button:hover {
+  background: #0b95b9;
+  color: white !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .about-page {
+    width: 90%;
+    padding-top: 2rem;
+  }
+
+
+  .about-opening {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-opening p:first-child {
+    font-size: 1.2rem;
+  }
+
+
+  .about-section-title {
+    margin-top: 2.2rem;
+
+    font-size: 1.4rem;
+  }
+
+
+  .about-panel {
+    padding: 1.3rem;
+  }
+
+
+  .membership-title {
+    font-size: 1.1rem;
+  }
+
+
+  .about-button {
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+  }
+
+}
+
+/* =========================================================
+   RESOURCES PAGE
+   ========================================================= */
+
+.resources-page {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+  color: white;
+}
+
+
+/* =========================================================
+   INTRO
+   ========================================================= */
+
+.resources-intro {
+  max-width: 900px;
+
+  /* left aligned rather than centred */
+  margin: 0 0 2.8rem;
+
+  text-align: left;
+}
+
+
+/* First introductory sentence */
+
+.resources-intro p:first-child {
+  max-width: 850px;
+
+  margin: 0 0 0.7rem;
+
+  color: white;
+
+  font-size: 1.35rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+
+/* Second introductory sentence */
+
+.resources-intro p:last-child {
+  max-width: 850px;
+
+  margin: 0;
+
+  color: #c2dce5;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.resources-page .resource-section-title {
+  display: block;
+  position: relative;
+
+  margin: 2.2rem 0 0.75rem;
+  padding: 0 0 0.65rem;
+
+  background: transparent;
+
+  color: white !important;
+
+  font-size: 1.6rem;
+  line-height: 1.15;
+  font-weight: 700;
+
+  /* remove Quarto's normal heading rules */
+  border: none !important;
+}
+
+
+/* Thin aqua line directly underneath each section heading */
+
+.resources-page .resource-section-title::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: #59c6df;
+}
+
+
+/* =========================================================
+   SMALL SECTION NOTE
+   ========================================================= */
+
+.resource-section-note {
+  max-width: 740px !important;
+
+  margin: 0 0 0.9rem !important;
+
+  color: #94b8c3 !important;
+
+  font-size: 0.82rem !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  font-style: italic;
+}
+
+
+/* =========================================================
+   RESOURCE LIST
+   ========================================================= */
+
+.resource-list {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+
+  overflow: hidden;
+
+  background: #f7fbfc;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+
+/* =========================================================
+   INDIVIDUAL RESOURCE ROW
+   ========================================================= */
+
+.resource-row {
+  display: grid;
+
+  grid-template-columns:
+    minmax(210px, 0.9fr)
+    minmax(320px, 1.8fr)
+    90px;
+
+  gap: 1.5rem;
+  align-items: center;
+
+  padding: 1.1rem 1.5rem;
+
+  border-bottom: 1px solid #d8e6ea;
+
+  transition:
+    background-color 0.2s ease,
+    border-left 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+.resource-row:last-child {
+  border-bottom: none;
+}
+
+
+/* subtle interaction */
+
+.resource-row:hover {
+  padding-left: calc(1.5rem - 4px);
+
+  background: #eaf6f8;
+
+  border-left: 4px solid #14b9c2;
+}
+
+
+/* =========================================================
+   RESOURCE NAME
+   ========================================================= */
+
+.resource-name h3 {
+  margin: 0;
+
+  color: #07334a;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   RESOURCE DESCRIPTION
+   ========================================================= */
+
+.resource-description {
+  color: #46616b;
+
+  font-size: 0.93rem;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+.resource-description p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.resource-description strong {
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   ACTION LINK
+   ========================================================= */
+
+.resource-action {
+  text-align: right;
+}
+
+.resource-action a {
+  display: inline-block;
+
+  color: #087da9;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.resource-action a:hover {
+  color: #14aeb8;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .resource-row {
+    grid-template-columns:
+      minmax(180px, 0.8fr)
+      minmax(250px, 1.5fr);
+  }
+
+  .resource-action {
+    grid-column: 2;
+
+    margin-top: -0.4rem;
+
+    text-align: left;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .resources-page {
+    width: 90%;
+    padding-top: 2rem;
+  }
+
+
+  /* Intro */
+
+  .resources-intro {
+    margin-bottom: 2.2rem;
+  }
+
+  .resources-intro p:first-child {
+    font-size: 1.2rem;
+  }
+
+  .resources-intro p:last-child {
+    font-size: 0.95rem;
+  }
+
+
+  /* Section heading */
+
+  .resources-page .resource-section-title {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+
+    font-size: 1.4rem;
+  }
+
+
+  /* Resource rows */
+
+  .resource-row {
+    display: block;
+
+    padding: 1.2rem;
+  }
+
+  .resource-row:hover {
+    padding-left: calc(1.2rem - 4px);
+  }
+
+  .resource-name {
+    margin-bottom: 0.5rem;
+  }
+
+  .resource-description {
+    margin-bottom: 0.75rem;
+  }
+
+  .resource-action {
+    margin: 0;
+
+    text-align: left;
+  }
+
+}
+
+
+/* =========================================================
+   CONTACT PAGE
+   ========================================================= */
+
+.contact-page {
+  width: min(1000px, 90%);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+
+  color: white;
+}
+
+
+/* =========================================================
+   ALL SECTION HEADINGS
+   ========================================================= */
+
+.contact-section-title {
+  position: relative;
+
+  margin: 2.5rem 0 1.2rem;
+  padding: 0 0 0.65rem;
+
+  color: white !important;
+
+  font-size: 1.6rem;
+  line-height: 1.15;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+
+/* Aqua divider below each heading */
+
+.contact-section-title::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: #59c6df;
+}
+
+
+/* First heading doesn't need as much space above it */
+
+.contact-page > .contact-section-title:first-child {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   STANDARD WHITE CONTACT PANEL
+   ========================================================= */
+
+.contact-panel {
+  margin-top: 1rem;
+
+  padding: 1.7rem 1.8rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.contact-panel p {
+  max-width: 820px;
+
+  margin: 0 0 0.9rem;
+
+  font-size: 0.97rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.contact-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-panel strong {
+  color: #07334a;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   EMAIL BUTTON
+   ========================================================= */
+
+.contact-email-button {
+  display: inline-block;
+
+  margin: 0.3rem 0 1rem;
+  padding: 0.7rem 1.1rem;
+
+  background: #087da9;
+  color: white !important;
+
+  border-radius: 4px;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.contact-email-button:hover {
+  background: #0b95b9;
+  color: white !important;
+}
+
+
+/* =========================================================
+   CORE TEAM INTRO
+   ========================================================= */
+
+.contact-section-intro {
+  max-width: 820px;
+
+  margin: 0 0 1.2rem;
+
+  color: #d5e7ec;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   CORE TEAM TABLE
+   ========================================================= */
+
+.team-table {
+  margin-top: 1rem;
+
+  overflow: hidden;
+
+  background: #f7fbfc;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.team-table table {
+  width: 100%;
+  margin: 0;
+
+  border-collapse: collapse;
+}
+
+
+/* Header */
+
+.team-table thead th {
+  padding: 0.9rem 1.4rem;
+
+  background: #e5f4f7;
+  color: #07334a;
+
+  border: none;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  text-align: left;
+}
+
+
+/* Body */
+
+.team-table tbody td {
+  padding: 0.9rem 1.4rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-bottom: 1px solid #d8e6ea;
+
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.team-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.team-table tbody tr:hover td {
+  background: #eaf6f8;
+}
+
+
+/* Core team member name */
+
+.team-table tbody td:first-child {
+  color: #07334a;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   SHARE WITH THE COMMUNITY
+   ========================================================= */
+
+.share-panel {
+  margin-top: 1rem;
+
+  padding: 1.7rem 1.8rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.share-panel p {
+  max-width: 820px;
+
+  margin: 0 0 0.8rem;
+
+  font-size: 0.97rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.share-panel strong {
+  color: #07334a;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   PLATFORM BUTTONS
+   ========================================================= */
+
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.7rem;
+
+  margin-top: 1.3rem;
+}
+
+.contact-platform-button {
+  display: inline-block;
+
+  padding: 0.7rem 1.1rem;
+
+  background: #087da9;
+  color: white !important;
+
+  border-radius: 4px;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.contact-platform-button:hover {
+  background: #0b95b9;
+  color: white !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .contact-page {
+    width: 90%;
+    padding-top: 2rem;
+  }
+
+  .contact-section-title {
+    margin-top: 2.2rem;
+
+    font-size: 1.4rem;
+  }
+
+  .contact-panel,
+  .share-panel {
+    padding: 1.3rem;
+  }
+
+  .team-table {
+    overflow-x: auto;
+  }
+
+  .team-table table {
+    min-width: 600px;
+  }
+
+  .team-table thead th,
+  .team-table tbody td {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .share-actions {
+    display: block;
+  }
+
+  .contact-platform-button {
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 0.6rem;
+
+    text-align: center;
+  }
+
+}
+
+
+
+/* =========================================================
+   MEMBERSHIP OPTIONS
+   ========================================================= */
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 1.2rem;
+
+  margin-top: 1.2rem;
+}
+
+
+/* Individual membership panel */
+
+.membership-panel {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.6rem 1.8rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+
+/* Membership headings */
+
+.membership-panel h3 {
+  position: relative;
+
+  margin: 0 0 1rem;
+  padding: 0 0 0.6rem;
+
+  color: #07334a;
+
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+
+/* Small aqua accent under each membership heading */
+
+.membership-panel h3::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 55px;
+  height: 3px;
+
+  background: #59c6df;
+}
+
+
+/* Panel text */
+
+.membership-panel p {
+  margin: 0 0 0.9rem;
+
+  color: #46616b;
+
+  font-size: 0.95rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.membership-panel strong {
+  color: #07334a;
+  font-weight: 600;
+}
+
+
+/* Lists */
+
+.membership-panel ul {
+  margin: 0.3rem 0 0.8rem;
+  padding-left: 1.25rem;
+}
+
+.membership-panel li {
+  margin-bottom: 0.3rem;
+
+  color: #46616b;
+
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+
+/* Push buttons to the bottom so they align across both columns */
+
+.membership-panel .about-actions {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+
+/* =========================================================
+   MEMBERSHIP MOBILE
+   ========================================================= */
+
+@media (max-width: 750px) {
+
+  .membership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .membership-panel {
+    padding: 1.3rem;
+  }
+
+}
+
+
+
+
+/* =========================================================
+   FOOTER 
+   ========================================================= */
+
+.footer-FRDC-logo {
+  width: auto;
+  max-height: 50px;
+
+  margin-left: 0.8rem;
+  vertical-align: middle;
+
+}
+
+
+
+
+/* =========================================================
+   CODE OF CONDUCT PAGE
+   ========================================================= */
+
+.conduct-page {
+  width: min(1050px, 90%);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+  color: white;
+}
+
+
+/* =========================================================
+   OPENING
+   ========================================================= */
+
+.conduct-opening {
+  max-width: 950px;
+  margin: 0 0 3rem;
+}
+
+.conduct-organisation {
+  margin: 0 0 0.35rem;
+
+  color: #9fc8d3;
+
+  font-size: 0.94rem;
+  line-height: 1.4;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.conduct-opening h1 {
+  margin: 0 0 1.5rem;
+
+  color: white;
+
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1.08;
+  font-weight: 700;
+
+  border: none;
+}
+
+
+/* =========================================================
+   ACKNOWLEDGEMENT OF COUNTRY
+   ========================================================= */
+
+.acknowledgement-panel {
+  max-width: 900px;
+
+  padding: 1.2rem 1.4rem;
+
+  background: #e5f4f7;
+  color: #07334a;
+
+  border-left: 5px solid #59c6df;
+  border-radius: 3px;
+}
+
+.acknowledgement-panel p {
+  margin: 0;
+
+  color: #284f60;
+
+  font-size: 0.96rem;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.conduct-section-title {
+  position: relative;
+
+  margin: 2.7rem 0 1rem;
+  padding: 0 0 0.65rem;
+
+  color: white !important;
+
+  font-size: 1.55rem;
+  line-height: 1.2;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+.conduct-section-title::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background: #59c6df;
+}
+
+
+/* =========================================================
+   STANDARD CONTENT PANELS
+   ========================================================= */
+
+.conduct-panel {
+  padding: 1.5rem 1.7rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.conduct-panel p {
+  margin: 0 0 0.85rem;
+
+  color: #46616b;
+
+  font-size: 0.96rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.conduct-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.conduct-panel strong {
+  color: #07334a;
+  font-weight: 600;
+}
+
+.conduct-panel h3 {
+  position: relative;
+
+  margin: 0 0 1rem;
+  padding: 0 0 0.55rem;
+
+  color: #07334a;
+
+  font-size: 1.12rem;
+  line-height: 1.25;
+  font-weight: 700;
+
+  border: none !important;
+}
+
+.conduct-panel h3::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 50px;
+  height: 3px;
+
+  background: #59c6df;
+}
+
+
+/* =========================================================
+   LISTS
+   ========================================================= */
+
+.conduct-panel ul,
+.conduct-panel ol {
+  margin: 0.55rem 0 0;
+  padding-left: 1.3rem;
+}
+
+.conduct-panel li {
+  margin-bottom: 0.35rem;
+
+  color: #46616b;
+
+  font-size: 0.95rem;
+  line-height: 1.42;
+  font-weight: 400;
+}
+
+.conduct-panel li:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   SIDE-BY-SIDE COMMITMENTS
+   ========================================================= */
+
+.conduct-columns {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.2rem;
+}
+
+.conduct-columns .conduct-panel {
+  height: 100%;
+}
+
+
+/* Subtle distinction between positive and negative panels */
+
+.conduct-commit {
+  border-top: 5px solid #18bdc4;
+}
+
+.conduct-avoid {
+  border-top: 5px solid #87a7b1;
+}
+
+
+/* =========================================================
+   COP LIMITATIONS
+   ========================================================= */
+
+.conduct-limitation {
+  margin-top: 1.1rem;
+  padding: 1rem 1.3rem;
+
+  background: #e5f4f7;
+  color: #284f60;
+
+  border-left: 5px solid #087da9;
+  border-radius: 3px;
+}
+
+.conduct-limitation h3 {
+  margin: 0 0 0.5rem;
+
+  color: #07334a;
+
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.conduct-limitation ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.conduct-limitation li {
+  color: #46616b;
+
+  font-size: 0.94rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   PLATFORM GUIDELINES
+   ========================================================= */
+
+.platform-guidelines {
+  display: grid;
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 1.2rem;
+}
+
+.platform-guideline {
+  height: 100%;
+
+  border-top: 5px solid #59c6df;
+}
+
+.platform-guideline > p:first-of-type {
+  margin-top: -0.35rem;
+
+  color: #087da9;
+
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   REPORTING AND ENFORCEMENT
+   ========================================================= */
+
+.conduct-enforcement-columns {
+  margin-top: 1.2rem;
+}
+
+
+/* =========================================================
+   REMEMBER PANEL
+   ========================================================= */
+
+.conduct-remember {
+  margin-top: 3rem;
+  padding: 1.6rem 1.8rem;
+
+  background: #59c6df;
+  color: #07334a;
+
+  border-radius: 4px;
+}
+
+.conduct-remember h3 {
+  margin: 0 0 0.65rem;
+
+  color: #07334a;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.conduct-remember p {
+  max-width: 900px;
+
+  margin: 0 0 0.7rem;
+
+  color: #07334a;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.conduct-remember p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   CONTACT PANEL
+   ========================================================= */
+
+.conduct-contact {
+  margin-top: 1.2rem;
+  padding: 1.5rem 1.8rem;
+
+  background: #f7fbfc;
+  color: #46616b;
+
+  border-radius: 4px;
+
+  box-shadow:
+    0 5px 16px rgba(0, 20, 35, 0.10);
+}
+
+.conduct-contact h3 {
+  margin: 0 0 0.65rem;
+
+  color: #07334a;
+
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.conduct-contact p {
+  margin: 0 0 0.8rem;
+
+  color: #46616b;
+
+  font-size: 0.96rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.conduct-contact-button {
+  display: inline-block;
+
+  margin-top: 0.25rem;
+  padding: 0.7rem 1.1rem;
+
+  background: #087da9;
+  color: white !important;
+
+  border-radius: 4px;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.conduct-contact-button:hover {
+  background: #0b95b9;
+  color: white !important;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 850px) {
+  .conduct-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-guidelines {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .conduct-page {
+    width: 90%;
+    padding-top: 2rem;
+  }
+
+  .conduct-opening h1 {
+    font-size: 2.2rem;
+  }
+
+  .conduct-section-title {
+    margin-top: 2.3rem;
+
+    font-size: 1.35rem;
+  }
+
+  .conduct-panel,
+  .conduct-remember,
+  .conduct-contact {
+    padding: 1.25rem;
+  }
+
+  .acknowledgement-panel {
+    padding: 1rem 1.1rem;
+  }
+}

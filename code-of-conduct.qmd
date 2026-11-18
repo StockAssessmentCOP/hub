@@ -1,0 +1,368 @@
+---
+title: ""
+---
+
+::: {.conduct-page}
+
+::: {.conduct-opening}
+
+<p class="conduct-organisation">Australian Stock Assessment Community of Practice</p>
+
+# Code of Conduct
+
+::: {.acknowledgement-panel}
+
+*The Australian Stock Assessment Community of Practice acknowledges Australia's Indigenous people, who are the Traditional Owners of Country throughout Australia, and recognises their continuing connection to lands, waters and culture. We pay our respects to Elders past and present, and extend that respect to all Indigenous people.*
+
+:::
+
+:::
+
+
+## Preamble {.conduct-section-title}
+
+::: {.conduct-panel}
+
+This Code of Conduct reflects our commitment to creating and maintaining ***a welcoming, safe, collegiate and collaborative space for all*** within the Australian Stock Assessment Community of Practice (CoP).
+
+All members, regardless of their level of engagement, are expected to adhere to these principles when participating in CoP activities, forums, events or communications. This includes:
+
+- Formal CoP members
+- Network members
+- Participants in CoP activities
+
+:::
+
+
+## Our values {.conduct-section-title}
+
+::: {.conduct-panel}
+
+The CoP is founded on the principle of creating a **supportive, collegiate operating space** where members can:
+
+- **Support** one another in their professional development
+- **Build our colleague base** across jurisdictions and career stages
+- **Address common issues** collaboratively
+- **Learn and grow** in a consequence-free, safe environment
+
+:::
+
+
+## 1. Respectful and inclusive behaviour {.conduct-section-title}
+
+:::: {.conduct-columns}
+
+::: {.conduct-panel .conduct-commit}
+
+### We commit to:
+
+- Treating all community members with respect, dignity and courtesy
+- Welcoming participants of all experience, skill, knowledge and background levels
+- Acknowledging and valuing diverse perspectives, approaches and learning styles
+- Recognising that each individual has a unique learning journey and trajectory
+- Using inclusive language that welcomes people from all backgrounds, cultures and career stages
+- Respecting Traditional Owners and their knowledge systems
+
+:::
+
+::: {.conduct-panel .conduct-avoid}
+
+### We will not:
+
+- Engage in discriminatory, ostracising or exclusionary behaviour
+- Use derogatory language or personal attacks
+- Make assumptions about others' capabilities based on their background, experience level or affiliation
+- Engage in behaviour that could reasonably be considered harassment or bullying
+
+:::
+
+::::
+
+
+## 2. Professional and constructive communication {.conduct-section-title}
+
+:::: {.conduct-columns}
+
+::: {.conduct-panel .conduct-commit}
+
+### We commit to:
+
+- Maintaining professional standards in all communications
+- Providing feedback and critique in a constructive, supportive manner
+- Focusing on ideas, methods and approaches rather than personal characteristics
+- Acknowledging when we do not know something or when we make mistakes
+- Giving credit where it is due and acknowledging the work of others
+
+:::
+
+::: {.conduct-panel .conduct-avoid}
+
+### We will not:
+
+- Engage in personal attacks or inflammatory rhetoric
+- Dismiss questions or contributions based on the questioner's experience level
+- Use CoP platforms for commercial promotion without appropriate permission
+- Engage in conspiratorial behaviour or create divisive factions within the community
+- Be confrontational regarding published stock assessment outcomes or agreed management resolutions, such as challenging Total Allowable Catch levels
+
+:::
+
+::::
+
+
+## 3. Evidence-based practice and scientific integrity {.conduct-section-title}
+
+:::: {.conduct-columns}
+
+::: {.conduct-panel .conduct-commit}
+
+### We commit to:
+
+- Grounding our discussions and recommendations in sound scientific evidence
+- Acknowledging uncertainty and limitations in our knowledge
+- Being transparent about potential conflicts of interest
+- Supporting claims with appropriate references and documentation
+- Encouraging open and honest scientific discourse
+
+:::
+
+::: {.conduct-panel .conduct-avoid}
+
+### We will not:
+
+- Misrepresent scientific findings or methodologies
+- Make unfounded claims about assessment methods or outcomes
+- Discourage legitimate scientific questioning or debate
+
+:::
+
+::::
+
+::: {.conduct-limitation}
+
+### The CoP cannot:
+
+- Provide legal or regulatory advice
+
+:::
+
+
+## 4. Confidentiality and information sharing {.conduct-section-title}
+
+:::: {.conduct-columns}
+
+::: {.conduct-panel .conduct-commit}
+
+### We commit to:
+
+- Respecting the confidentiality requirements of our respective organisations
+- Only sharing information we are authorised to share
+- Clearly indicating when information is preliminary, confidential or restricted
+- Respecting intellectual property rights and requirements for proper attribution
+
+:::
+
+::: {.conduct-panel .conduct-avoid}
+
+### We will not:
+
+- Share sensitive, confidential or proprietary information without appropriate authorisation
+- Breach data-sharing agreements or confidentiality requirements
+- Use CoP platforms to circumvent normal organisational information-sharing protocols
+
+:::
+
+::::
+
+::: {.conduct-limitation}
+
+### The CoP cannot:
+
+- Host the sharing of data or code where these may contain sensitive information
+
+:::
+
+
+## 5. Collaborative learning environment {.conduct-section-title}
+
+:::: {.conduct-columns}
+
+::: {.conduct-panel .conduct-commit}
+
+### We commit to:
+
+- Creating a safe space for questions, learning and skill development
+- Encouraging participation from members at all career stages
+- Sharing knowledge and expertise generously
+- Supporting early-career scientists and newcomers to the field
+- Maintaining healthy levels of competition in learning activities, such as stock assessment games
+- Celebrating successes and learning from failures together
+
+:::
+
+::: {.conduct-panel .conduct-avoid}
+
+### We will not:
+
+- Shame or belittle others for their level of knowledge or experience
+- Create an environment where people are afraid to ask questions or admit uncertainty
+- Dominate discussions or monopolise expert attention
+- Engage in unhealthy competition that discourages participation
+
+:::
+
+::::
+
+
+## 6. Platform-specific guidelines {.conduct-section-title}
+
+::: {.platform-guidelines}
+
+::: {.conduct-panel .platform-guideline}
+
+### Technical forum and repository
+
+**GitHub · Formal members**
+
+- Focus on technical discussions and resource sharing
+- Use clear, descriptive titles for posts and contributions
+- Provide context and background for technical questions
+- Follow established formatting and documentation standards
+
+:::
+
+::: {.conduct-panel .platform-guideline}
+
+### Social network
+
+**LinkedIn · All members**
+
+- Keep discussions professional but accessible
+- Use appropriate hashtags and tagging
+- Share relevant news and opportunities with the broader community
+- Maintain a welcoming tone for newcomers
+
+:::
+
+::: {.conduct-panel .platform-guideline}
+
+### Face-to-face events and workshops
+
+- Participate actively and constructively
+- Respect time limits and agenda items
+- Create opportunities for networking and relationship building
+- Support inclusive participation in discussions and activities
+
+:::
+
+:::
+
+
+## 7. Reporting and enforcement {.conduct-section-title}
+
+::: {.conduct-panel}
+
+### Reporting mechanisms
+
+If you experience or witness behaviour that violates this Code of Conduct:
+
+1. **Direct communication:** When safe and appropriate, consider addressing minor issues directly with the individual involved.
+2. **Contact moderators:** Report issues to designated forum moderators or event facilitators.
+3. **Leadership team:** Contact the CoP Core Leadership Group for serious violations or if other approaches are unsuccessful.
+4. **Anonymous reporting:** Anonymous reporting options will be made available for sensitive situations.
+
+:::
+
+:::: {.conduct-columns .conduct-enforcement-columns}
+
+::: {.conduct-panel}
+
+### Response process
+
+The CoP Forum Moderators, in accordance with the Moderator Guidelines, will:
+
+- Investigate reported violations fairly and confidentially
+- Take action proportionate to the nature and severity of the violation
+- Maintain records as necessary for ongoing community safety
+
+:::
+
+::: {.conduct-panel}
+
+### Possible actions
+
+Depending on the severity and nature of the violation, responses may include:
+
+- Private conversation and guidance
+- Public clarification or correction
+- Temporary suspension from specific platforms or activities
+- Removal from CoP membership for serious or repeated violations
+- Exclusion from events or activities
+
+:::
+
+::::
+
+
+## 8. Continuous improvement {.conduct-section-title}
+
+::: {.conduct-panel}
+
+This Code of Conduct is a living document that will:
+
+- Be reviewed regularly by the CoP membership
+- Be updated based on community feedback and experience
+- Evolve to address new challenges and platforms
+- Be refined through consultation with CoP members
+
+:::
+
+
+## 9. Acknowledgement and agreement {.conduct-section-title}
+
+::: {.conduct-panel}
+
+By participating in CoP activities, all members acknowledge that they have read, understood and agree to abide by this Code of Conduct.
+
+New members will be required to acknowledge their understanding of and commitment to these principles as part of the onboarding process.
+
+:::
+
+
+## 10. Support and resources {.conduct-section-title}
+
+::: {.conduct-panel}
+
+The CoP Core Leadership Group is committed to providing:
+
+- Clear guidance on appropriate behaviour and communication
+- Training and support for moderators and facilitators
+- A safe community
+- Regular communication about community standards and expectations
+
+:::
+
+
+::: {.conduct-remember}
+
+### Remember
+
+Our goal is to create an environment where everyone can thrive professionally, learn from each other and contribute to the advancement of stock assessment science in Australia.
+
+This Code of Conduct represents our shared commitment to that vision.
+
+:::
+
+
+::: {.conduct-contact}
+
+### Questions or reports
+
+For questions about this Code of Conduct, or to report a possible violation, contact the CoP mailbox.
+
+[Contact us](mailto:stockassessmentcop@gmail.com?subject=Code%20of%20Conduct%20enquiry){.conduct-contact-button}
+
+
+:::
+
+:::

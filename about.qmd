@@ -1,0 +1,129 @@
+---
+title: ""
+---
+
+::: {.about-page}
+
+<!-- ::: {.about-opening} -->
+
+<!-- Building a collaborative community of stock assessment practitioners to better support **sustainable fisheries management**. -->
+
+<!-- *A welcoming, safe, collegiate and collaborative space for all to build and share expertise.* -->
+
+<!-- ::: -->
+
+::: {.resources-intro}
+
+Building a collaborative community of stock assessment practitioners to better support **sustainable fisheries management**.
+
+A welcoming, safe, collegiate and collaborative space for all to build and share expertise.
+
+:::
+
+
+## Our purpose {.about-section-title}
+
+::: {.about-panel}
+
+Led by a national core team, the CoP aims to build a strengthened, sustained, and highly engaged community of fisheries stock assessment practitioners by providing a supportive, collegiate operating space for capacity and capability building throughout Australia.
+
+This will support the aim that all jurisdictions undertake assessments meeting best practice across the full spectrum of data-limited to data-rich fisheries, comparable to leading agencies globally.
+
+:::
+
+
+## What we aim to achieve {.about-section-title}
+
+::: {.about-panel}
+
+The CoP will:
+
+- **Foster collaboration** and strengthen relationships across agencies and jurisdictions
+- **Develop and maintain online platforms** to enable collaboration and communication
+- **Provide ongoing training and learning opportunities** across all levels of expertise
+- **Strengthen the national pipeline** of stock assessment scientists
+- **Raise the profile** of Australian stock assessment science
+
+:::
+
+## Ways to participate {.about-section-title}
+
+<p class="about-section-intro">Participation in the CoP is free, with different levels of participation to suit members' interests and needs.</p>
+
+::: {.membership-grid}
+
+::: {.membership-panel}
+
+### Formal membership
+
+Formal membership is designed primarily for practicing stock assessment scientists, as well as harvest strategy, MSE and ecosystem modelling specialists.
+
+Formal members are also members of the broader **CoP Network**.
+
+**Formal membership provides access to:**
+
+- A dedicated **GitHub repository**
+- Technical resources and discussion boards
+- More formal, technical engagement
+- A resource repository
+- Links to external resources
+
+::: {.about-actions}
+
+[Go to the repository](https://github.com/StockAssessmentCOP/StockAssessmentCOP){.about-button target="_blank"}
+
+<!-- [Request access](mailto:stockassessmentcop@gmail.com?subject=Request%20for%20formal%20membership%20and%20GitHub%20access&body=Hello%2C%0A%0AI%20am%20interested%20in%20becoming%20a%20formal%20member%20of%20the%20Australian%20Stock%20Assessment%20Community%20of%20Practice%2C%20and%20would%20like%20to%20be%20granted%20access%20to%20the%20GitHub.%0A%0AName%3A%20%0AOrganisation%3A%20%0AGitHub%20username%3A%20%0A%0AThank%20you.){.about-button} -->
+
+[Request access](mailto:stockassessmentcop@gmail.com?subject=Request%20for%20formal%20membership%20and%20GitHub%20access&body=Hello%2C%0A%0AI%20am%20interested%20in%20becoming%20a%20formal%20member%20of%20the%20Australian%20Stock%20Assessment%20Community%20of%20Practice%2C%20and%20would%20like%20to%20be%20granted%20access%20to%20the%20GitHub.%0A%0AName%3A%20%0AOrganisation%3A%20%0AGitHub%20username%3A%20%0A%0AThank%20you.){.cop-button .cop-button-secondary}
+
+
+:::
+
+:::
+
+
+::: {.membership-panel}
+
+### Network membership
+
+Network membership is designed for the extended community with at least a casual interest in stock assessment, including fishery managers, Traditional Owners, policy makers, industry representatives, conservation groups, students and developing scientists.
+
+**The Network provides access to:**
+
+- Online forums
+- Q&A discussions
+- Noticeboards
+- Breakout discussions
+- **Lunch and Learn** events
+- Broader networking and informal discussions
+- An accessible entry point for newcomers
+
+::: {.about-actions}
+
+[Go to LinkedIn group](https://www.linkedin.com/groups/14536824/){.about-button target="_blank"}
+
+
+:::
+
+:::
+
+:::
+
+
+## Stay connected {.about-section-title}
+
+::: {.about-panel}
+
+The general public can engage with the CoP through this website, including resources for **students and newcomers** and links to the GitHub and LinkedIn platforms available to members.
+
+All participants can also subscribe to the **CoP mailing list** for community updates, announcements and event information.
+
+::: {.about-actions}
+
+[Join our mailing list](mailto:stockassessmentcop@gmail.com?subject=Mailing%20list&body=Hello%2C%0A%0APlease%20add%20me%20to%20your%20mailing%20list%20and%20the%20invite%20list%20for%20upcoming%20Lunch%20and%20Learn%20seminars.%0A%0AThank%20you.){.about-button}
+
+:::
+
+:::
+
+:::

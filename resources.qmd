@@ -1,0 +1,434 @@
+---
+title: ""
+---
+
+::: {.resources-page}
+
+::: {.resources-intro}
+
+Tools, training and learning material for the **Australian stock assessment community**.
+
+Explore resources developed by the Community of Practice alongside useful tools, courses and communities from Australia and around the world.
+
+:::
+
+
+## Forums & communities {.resource-section-title}
+
+<p class="resource-section-note">Forums run by other organisations, including internationally, may be of interest to CoP members.</p>
+
+::::: {.resource-list}
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### SS group
+:::
+
+::: {.resource-description}
+An interactive community for discussing **Stock Synthesis**.
+:::
+
+::: {.resource-action}
+[Visit →](https://groups.google.com/g/ss3-forum){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Fisheries Think Tank
+:::
+
+::: {.resource-description}
+A collaborative seminar series involving fisheries stock assessment researchers, primarily in the United States.
+:::
+
+::: {.resource-action}
+[Visit →](https://puntlab.washington.edu/fisheries-think-tank/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Think Tank videos
+:::
+
+::: {.resource-description}
+Recordings of previous Fisheries Think Tank workshops.
+:::
+
+::: {.resource-action}
+[Watch →](https://www.youtube.com/playlist?list=PLL6tmlU3fRsm7eD4PzV6wdn3NBXKeci4f){target="_blank"}
+:::
+
+::::
+
+:::::
+
+
+## Tools & reference material {.resource-section-title}
+
+<p class="resource-section-note">Additional resources available to formal members via the GitHub platform.</p>
+
+::::: {.resource-list}
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Get to know the CoP
+:::
+
+::: {.resource-description}
+A demonstration from our **inaugural Lunch and Learn** showing how the CoP GitHub and LinkedIn platforms work.
+:::
+
+::: {.resource-action}
+[Watch →](https://www.youtube.com/watch?v=WtIW5UNu6As){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### 2026 CoP Workshop
+:::
+
+::: {.resource-description}
+Website and resources for the **2026 Australian Stock Assessment Community of Practice Workshop**.
+:::
+
+::: {.resource-action}
+[Visit →](https://stockassessmentcop.github.io/asacop2026/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Best practice papers
+:::
+
+::: {.resource-description}
+A compilation of papers and workshops describing **best practice for conducting stock assessments**. Accessible to formal members.
+:::
+
+::: {.resource-action}
+[Explore →](https://github.com/StockAssessmentCOP/StockAssessmentCOP/blob/main/Resources/Best%20practice.csv){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Published Australian stock assessments
+:::
+
+::: {.resource-description}
+A growing list of known Australian stock assessment reports. Accessible to formal members.
+:::
+
+::: {.resource-action}
+[Browse →](https://github.com/StockAssessmentCOP/StockAssessmentCOP/blob/main/Resources/Assessment%20Reports.csv){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Australian Stock Assessment Toolbox
+:::
+
+::: {.resource-description}
+A database of freely available packages for conducting stock assessments of fish and invertebrate stocks.
+:::
+
+::: {.resource-action}
+[Explore →](https://toolbox.frdc.com.au/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### FishPath
+:::
+
+::: {.resource-description}
+A stakeholder engagement process supporting **harvest strategy development**.
+:::
+
+::: {.resource-action}
+[Visit →](https://fishpath.org/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### NOAA Fisheries Integrated Toolbox
+:::
+
+::: {.resource-description}
+Publicly accessible software tools for fisheries scientific work, including many stock assessment packages.
+:::
+
+::: {.resource-action}
+[Explore →](https://noaa-fisheries-integrated-toolbox.github.io/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Status of Australian Fish Stocks
+:::
+
+::: {.resource-description}
+Brings together biological, catch and effort information to determine the status of Australia's key wild-catch fish stocks.
+:::
+
+::: {.resource-action}
+[Visit →](https://www.fish.gov.au/){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Stock Assessment Learning Tool (SALT)
+:::
+
+::: {.resource-description}
+A collection of interactive applications for learning about **stock assessment inputs and outputs**.
+:::
+
+::: {.resource-action}
+[Explore →](https://github.com/shcaba/Stock-Assessment-Learning-Tool){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Natural Mortality Estimator
+:::
+
+::: {.resource-description}
+Estimate natural mortality (**M**) using a range of life-history-based methods.
+:::
+
+::: {.resource-action}
+[Open →](http://barefootecologist.com.au/shiny_m.html){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### SSAND
+:::
+
+::: {.resource-description}
+An R package for streamlining and providing consistency in stock assessment model outputs. Currently supports **Stock Synthesis and DDUST**.
+:::
+
+::: {.resource-action}
+[GitHub →](https://github.com/QLD-Fisheries/SSAND){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Australian Harvest Strategy Database
+:::
+
+::: {.resource-description}
+A platform for exploring publicly available harvest strategies in Australia. Free signup is required.
+:::
+
+::: {.resource-action}
+[Explore →](https://www.dpi.nsw.gov.au/fishing/harvest-strategies){target="_blank"}
+:::
+
+::::
+
+:::::
+
+
+## Videos & learning {.resource-section-title}
+
+::::: {.resource-list}
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Lunch and Learn
+:::
+
+::: {.resource-description}
+A catalogue of **Lunch and Learn sessions** run by the Australian Stock Assessment Community of Practice.
+:::
+
+::: {.resource-action}
+[Browse →](https://github.com/StockAssessmentCOP/StockAssessmentCOP/blob/main/Resources/Lunch%20and%20Learn.csv){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Fisheries Stock Assessment Modelling
+:::
+
+::: {.resource-description}
+A collection of videos introducing key topics in fisheries stock assessment.
+:::
+
+::: {.resource-action}
+[Watch →](https://www.youtube.com/watch?v=BuYcWlXFGOw){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### What is a stock assessment?
+:::
+
+::: {.resource-description}
+A short introduction to the role stock assessments play in fisheries management.
+:::
+
+::: {.resource-action}
+[Watch →](https://www.youtube.com/watch?v=ZtjiYZX62b0){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### Communicating stock assessment results
+:::
+
+::: {.resource-description}
+A saddletail snapper example from a series designed to communicate stock assessment results to stakeholders.
+:::
+
+::: {.resource-action}
+[Watch →](https://www.youtube.com/watch?v=8GSSHw3dSmg){target="_blank"}
+:::
+
+::::
+
+:::::
+
+
+## Training & courses {.resource-section-title}
+
+::::: {.resource-list}
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### FAO eLearning Academy
+:::
+
+::: {.resource-description}
+Online learning material in fisheries stock assessment.
+:::
+
+::: {.resource-action}
+[Explore →](https://elearning.fao.org/course/view.php?id=502#:~:text=The%20*Fisheries%20stock%20assessment%20online%20course*%20focuses,*%20Fisheries%20scientists%2C%20data%20analysts%2C%20and%20statisticians){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### IATTC stock assessment resources
+:::
+
+::: {.resource-description}
+Stock assessment learning resources from the Inter-American Tropical Tuna Commission.
+:::
+
+::: {.resource-action}
+[Explore →](https://www.iattc.org/en-US/Resources/Stock-Assessment-resources){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### NOAA National Stock Assessment Workshops
+:::
+
+::: {.resource-description}
+Stock assessment workshops and learning resources provided by NOAA Fisheries.
+:::
+
+::: {.resource-action}
+[Explore →](https://www.fisheries.noaa.gov/population-assessments/national-stock-assessment-workshops){target="_blank"}
+:::
+
+::::
+
+
+:::: {.resource-row}
+
+::: {.resource-name}
+### SPC Training Centre
+:::
+
+::: {.resource-description}
+Fisheries training resources from the Pacific Community.
+:::
+
+::: {.resource-action}
+[Explore →](https://fame.spc.int/training-centre){target="_blank"}
+:::
+
+::::
+
+:::::
+
+:::
