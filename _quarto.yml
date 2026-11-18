@@ -1,7 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
+  title: "Australian Stock Assessment Community of Practice"
   page-footer:
     left: |
       This research was supported by Fisheries Research and Development Corporation on behalf of the Australian Government. <br>
