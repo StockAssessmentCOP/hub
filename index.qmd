@@ -26,7 +26,7 @@ A place for the Australian fisheries stock assessment community to **support** o
 ::: {.membership-note}
 *Participation in the CoP is free of charge, and members of all experience, skill, knowledge and background are welcome.*
 
-*Members participating within the CoP are to adhere to the **[Code of Conduct](about.qmd){target="_blank"}** and treat all community members with respect.*
+*Members participating within the CoP are to adhere to the **[Code of Conduct](code-of-conduct.qmd){target="_blank"}** and treat all community members with respect.*
 :::
 
 ::: {.cop-accordion}
