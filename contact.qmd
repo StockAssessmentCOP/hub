@@ -17,23 +17,23 @@ The CoP mailbox is monitored by **Natalie Dowling and Alise Fox**.
 :::
 
 
-## Core team {.contact-section-title}
+<!-- ## Core team {.contact-section-title} -->
 
-<p class="contact-section-intro">The Community of Practice is led by a national core team, with representation across Australian fisheries jurisdictions.</p>
+<!-- <p class="contact-section-intro">The Community of Practice is led by a national core team, with representation across Australian fisheries jurisdictions.</p> -->
 
-::: {.team-table}
+<!-- ::: {.team-table} -->
 
-| Core team member | Jurisdiction | Organisation |
-|---|---|---|
-| Member | New South Wales | Organisation |
-| Member | Victoria | Organisation |
-| Member | Tasmania | Organisation |
-| Member | South Australia | Organisation |
-| Member | Western Australia | Organisation |
-| Member | Queensland | Organisation |
-| Member | Commonwealth | Organisation |
+<!-- | Core team member | Jurisdiction | Organisation | -->
+<!-- |---|---|---| -->
+<!-- | Member | New South Wales | Organisation | -->
+<!-- | Member | Victoria | Organisation | -->
+<!-- | Member | Tasmania | Organisation | -->
+<!-- | Member | South Australia | Organisation | -->
+<!-- | Member | Western Australia | Organisation | -->
+<!-- | Member | Queensland | Organisation | -->
+<!-- | Member | Commonwealth | Organisation | -->
 
-:::
+<!-- ::: -->
 
 
 ## Got something to share? {.contact-section-title}
